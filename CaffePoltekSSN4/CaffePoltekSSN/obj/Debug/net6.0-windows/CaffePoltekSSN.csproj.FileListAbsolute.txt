@@ -1,0 +1,45 @@
+C:\Users\ASUS\source\repos\CaffePoltekSSN\CaffePoltekSSN\bin\Debug\net6.0-windows\CaffePoltekSSN.exe
+C:\Users\ASUS\source\repos\CaffePoltekSSN\CaffePoltekSSN\bin\Debug\net6.0-windows\CaffePoltekSSN.deps.json
+C:\Users\ASUS\source\repos\CaffePoltekSSN\CaffePoltekSSN\bin\Debug\net6.0-windows\CaffePoltekSSN.runtimeconfig.json
+C:\Users\ASUS\source\repos\CaffePoltekSSN\CaffePoltekSSN\bin\Debug\net6.0-windows\CaffePoltekSSN.dll
+C:\Users\ASUS\source\repos\CaffePoltekSSN\CaffePoltekSSN\bin\Debug\net6.0-windows\CaffePoltekSSN.pdb
+C:\Users\ASUS\source\repos\CaffePoltekSSN\CaffePoltekSSN\obj\Debug\net6.0-windows\CaffePoltekSSN.csproj.AssemblyReference.cache
+C:\Users\ASUS\source\repos\CaffePoltekSSN\CaffePoltekSSN\obj\Debug\net6.0-windows\CaffePoltekSSN.Form1.resources
+C:\Users\ASUS\source\repos\CaffePoltekSSN\CaffePoltekSSN\obj\Debug\net6.0-windows\CaffePoltekSSN.csproj.GenerateResource.cache
+C:\Users\ASUS\source\repos\CaffePoltekSSN\CaffePoltekSSN\obj\Debug\net6.0-windows\CaffePoltekSSN.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\source\repos\CaffePoltekSSN\CaffePoltekSSN\obj\Debug\net6.0-windows\CaffePoltekSSN.AssemblyInfoInputs.cache
+C:\Users\ASUS\source\repos\CaffePoltekSSN\CaffePoltekSSN\obj\Debug\net6.0-windows\CaffePoltekSSN.AssemblyInfo.cs
+C:\Users\ASUS\source\repos\CaffePoltekSSN\CaffePoltekSSN\obj\Debug\net6.0-windows\CaffePoltekSSN.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\source\repos\CaffePoltekSSN\CaffePoltekSSN\obj\Debug\net6.0-windows\CaffePoltekSSN.dll
+C:\Users\ASUS\source\repos\CaffePoltekSSN\CaffePoltekSSN\obj\Debug\net6.0-windows\refint\CaffePoltekSSN.dll
+C:\Users\ASUS\source\repos\CaffePoltekSSN\CaffePoltekSSN\obj\Debug\net6.0-windows\CaffePoltekSSN.pdb
+C:\Users\ASUS\source\repos\CaffePoltekSSN\CaffePoltekSSN\obj\Debug\net6.0-windows\CaffePoltekSSN.genruntimeconfig.cache
+C:\Users\ASUS\source\repos\CaffePoltekSSN\CaffePoltekSSN\obj\Debug\net6.0-windows\ref\CaffePoltekSSN.dll
+C:\Users\ASUS\source\repos\CaffePoltekSSN\CaffePoltekSSN\obj\Debug\net6.0-windows\CaffePoltekSSN.Form2.resources
+C:\Users\ASUS\source\repos\CaffePoltekSSN\CaffePoltekSSN\obj\Debug\net6.0-windows\CaffePoltekSSN.Form3.resources
+C:\Users\ASUS\source\repos\CaffePoltekSSN\CaffePoltekSSN\obj\Debug\net6.0-windows\CaffePoltekSSN.Form4.resources
+C:\Users\ASUS\source\repos\CaffePoltekSSN\CaffePoltekSSN\obj\Debug\net6.0-windows\CaffePoltekSSN.Properties.Resources.resources
+G:\PoltekSSN\Madya\KULIAH\Semester 6\DESKTOP PROGRAMMING\P7\CaffePoltekSSN3\CaffePoltekSSN\bin\Debug\net6.0-windows\CaffePoltekSSN.exe
+G:\PoltekSSN\Madya\KULIAH\Semester 6\DESKTOP PROGRAMMING\P7\CaffePoltekSSN3\CaffePoltekSSN\bin\Debug\net6.0-windows\CaffePoltekSSN.deps.json
+G:\PoltekSSN\Madya\KULIAH\Semester 6\DESKTOP PROGRAMMING\P7\CaffePoltekSSN3\CaffePoltekSSN\bin\Debug\net6.0-windows\CaffePoltekSSN.runtimeconfig.json
+G:\PoltekSSN\Madya\KULIAH\Semester 6\DESKTOP PROGRAMMING\P7\CaffePoltekSSN3\CaffePoltekSSN\bin\Debug\net6.0-windows\CaffePoltekSSN.dll
+G:\PoltekSSN\Madya\KULIAH\Semester 6\DESKTOP PROGRAMMING\P7\CaffePoltekSSN3\CaffePoltekSSN\bin\Debug\net6.0-windows\CaffePoltekSSN.pdb
+G:\PoltekSSN\Madya\KULIAH\Semester 6\DESKTOP PROGRAMMING\P7\CaffePoltekSSN3\CaffePoltekSSN\bin\Debug\net6.0-windows\CsvHelper.dll
+G:\PoltekSSN\Madya\KULIAH\Semester 6\DESKTOP PROGRAMMING\P7\CaffePoltekSSN3\CaffePoltekSSN\bin\Debug\net6.0-windows\QRCoder.dll
+G:\PoltekSSN\Madya\KULIAH\Semester 6\DESKTOP PROGRAMMING\P7\CaffePoltekSSN3\CaffePoltekSSN\obj\Debug\net6.0-windows\CaffePoltekSSN.csproj.AssemblyReference.cache
+G:\PoltekSSN\Madya\KULIAH\Semester 6\DESKTOP PROGRAMMING\P7\CaffePoltekSSN3\CaffePoltekSSN\obj\Debug\net6.0-windows\CaffePoltekSSN.Form1.resources
+G:\PoltekSSN\Madya\KULIAH\Semester 6\DESKTOP PROGRAMMING\P7\CaffePoltekSSN3\CaffePoltekSSN\obj\Debug\net6.0-windows\CaffePoltekSSN.Form2.resources
+G:\PoltekSSN\Madya\KULIAH\Semester 6\DESKTOP PROGRAMMING\P7\CaffePoltekSSN3\CaffePoltekSSN\obj\Debug\net6.0-windows\CaffePoltekSSN.Form3.resources
+G:\PoltekSSN\Madya\KULIAH\Semester 6\DESKTOP PROGRAMMING\P7\CaffePoltekSSN3\CaffePoltekSSN\obj\Debug\net6.0-windows\CaffePoltekSSN.Form4.resources
+G:\PoltekSSN\Madya\KULIAH\Semester 6\DESKTOP PROGRAMMING\P7\CaffePoltekSSN3\CaffePoltekSSN\obj\Debug\net6.0-windows\CaffePoltekSSN.Properties.Resources.resources
+G:\PoltekSSN\Madya\KULIAH\Semester 6\DESKTOP PROGRAMMING\P7\CaffePoltekSSN3\CaffePoltekSSN\obj\Debug\net6.0-windows\CaffePoltekSSN.csproj.GenerateResource.cache
+G:\PoltekSSN\Madya\KULIAH\Semester 6\DESKTOP PROGRAMMING\P7\CaffePoltekSSN3\CaffePoltekSSN\obj\Debug\net6.0-windows\CaffePoltekSSN.GeneratedMSBuildEditorConfig.editorconfig
+G:\PoltekSSN\Madya\KULIAH\Semester 6\DESKTOP PROGRAMMING\P7\CaffePoltekSSN3\CaffePoltekSSN\obj\Debug\net6.0-windows\CaffePoltekSSN.AssemblyInfoInputs.cache
+G:\PoltekSSN\Madya\KULIAH\Semester 6\DESKTOP PROGRAMMING\P7\CaffePoltekSSN3\CaffePoltekSSN\obj\Debug\net6.0-windows\CaffePoltekSSN.AssemblyInfo.cs
+G:\PoltekSSN\Madya\KULIAH\Semester 6\DESKTOP PROGRAMMING\P7\CaffePoltekSSN3\CaffePoltekSSN\obj\Debug\net6.0-windows\CaffePoltekSSN.csproj.CoreCompileInputs.cache
+G:\PoltekSSN\Madya\KULIAH\Semester 6\DESKTOP PROGRAMMING\P7\CaffePoltekSSN3\CaffePoltekSSN\obj\Debug\net6.0-windows\CaffePoltekSSN.csproj.CopyComplete
+G:\PoltekSSN\Madya\KULIAH\Semester 6\DESKTOP PROGRAMMING\P7\CaffePoltekSSN3\CaffePoltekSSN\obj\Debug\net6.0-windows\CaffePoltekSSN.dll
+G:\PoltekSSN\Madya\KULIAH\Semester 6\DESKTOP PROGRAMMING\P7\CaffePoltekSSN3\CaffePoltekSSN\obj\Debug\net6.0-windows\refint\CaffePoltekSSN.dll
+G:\PoltekSSN\Madya\KULIAH\Semester 6\DESKTOP PROGRAMMING\P7\CaffePoltekSSN3\CaffePoltekSSN\obj\Debug\net6.0-windows\CaffePoltekSSN.pdb
+G:\PoltekSSN\Madya\KULIAH\Semester 6\DESKTOP PROGRAMMING\P7\CaffePoltekSSN3\CaffePoltekSSN\obj\Debug\net6.0-windows\CaffePoltekSSN.genruntimeconfig.cache
+G:\PoltekSSN\Madya\KULIAH\Semester 6\DESKTOP PROGRAMMING\P7\CaffePoltekSSN3\CaffePoltekSSN\obj\Debug\net6.0-windows\ref\CaffePoltekSSN.dll

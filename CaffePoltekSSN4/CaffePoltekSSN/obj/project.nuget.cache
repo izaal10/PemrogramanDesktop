@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "Mej5Qlphk8abhfXLy+3bqJ/p8fgDrrGIq/v0OSSj+bFtnyeMKtHPjNrx0o4wmqN53XbvEIibNxLGh7QQGUWehw==",
+  "success": true,
+  "projectFilePath": "G:\\PoltekSSN\\Madya\\KULIAH\\Semester 6\\DESKTOP PROGRAMMING\\P7\\CaffePoltekSSN3\\CaffePoltekSSN\\CaffePoltekSSN.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ASUS\\.nuget\\packages\\csvhelper\\30.0.1\\csvhelper.30.0.1.nupkg.sha512",
+    "C:\\Users\\ASUS\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
+    "C:\\Users\\ASUS\\.nuget\\packages\\qrcoder\\1.4.3\\qrcoder.1.4.3.nupkg.sha512",
+    "C:\\Users\\ASUS\\.nuget\\packages\\system.drawing.common\\6.0.0\\system.drawing.common.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
