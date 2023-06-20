@@ -219,5 +219,15 @@ namespace CaffePoltekSSN
             comboqty.Text = "";
             textTotal.Text = "";
         }
+
+        private void exitToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void logOutToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

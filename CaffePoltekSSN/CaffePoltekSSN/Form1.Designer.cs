@@ -54,7 +54,17 @@
             this.comboqty = new System.Windows.Forms.ComboBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
+            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.adminToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.exitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.viewToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.refreshToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.showAllItemsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.filterByCategoryToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.sortByPricesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.logOutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // label1
@@ -305,11 +315,81 @@
             this.label3.TabIndex = 18;
             this.label3.Text = "Order List";
             // 
+            // menuStrip1
+            // 
+            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.adminToolStripMenuItem,
+            this.viewToolStripMenuItem});
+            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip1.Name = "menuStrip1";
+            this.menuStrip1.Size = new System.Drawing.Size(1475, 24);
+            this.menuStrip1.TabIndex = 19;
+            this.menuStrip1.Text = "menuStrip1";
+            // 
+            // adminToolStripMenuItem
+            // 
+            this.adminToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.exitToolStripMenuItem,
+            this.logOutToolStripMenuItem});
+            this.adminToolStripMenuItem.Name = "adminToolStripMenuItem";
+            this.adminToolStripMenuItem.Size = new System.Drawing.Size(37, 20);
+            this.adminToolStripMenuItem.Text = "File";
+            // 
+            // exitToolStripMenuItem
+            // 
+            this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.exitToolStripMenuItem.Text = "Exit";
+            this.exitToolStripMenuItem.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
+            // 
+            // viewToolStripMenuItem
+            // 
+            this.viewToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.refreshToolStripMenuItem,
+            this.showAllItemsToolStripMenuItem,
+            this.filterByCategoryToolStripMenuItem,
+            this.sortByPricesToolStripMenuItem});
+            this.viewToolStripMenuItem.Name = "viewToolStripMenuItem";
+            this.viewToolStripMenuItem.Size = new System.Drawing.Size(44, 20);
+            this.viewToolStripMenuItem.Text = "View";
+            // 
+            // refreshToolStripMenuItem
+            // 
+            this.refreshToolStripMenuItem.Name = "refreshToolStripMenuItem";
+            this.refreshToolStripMenuItem.Size = new System.Drawing.Size(167, 22);
+            this.refreshToolStripMenuItem.Text = "Refresh";
+            // 
+            // showAllItemsToolStripMenuItem
+            // 
+            this.showAllItemsToolStripMenuItem.Name = "showAllItemsToolStripMenuItem";
+            this.showAllItemsToolStripMenuItem.Size = new System.Drawing.Size(167, 22);
+            this.showAllItemsToolStripMenuItem.Text = "Show All Items";
+            // 
+            // filterByCategoryToolStripMenuItem
+            // 
+            this.filterByCategoryToolStripMenuItem.Name = "filterByCategoryToolStripMenuItem";
+            this.filterByCategoryToolStripMenuItem.Size = new System.Drawing.Size(167, 22);
+            this.filterByCategoryToolStripMenuItem.Text = "Filter by Category";
+            // 
+            // sortByPricesToolStripMenuItem
+            // 
+            this.sortByPricesToolStripMenuItem.Name = "sortByPricesToolStripMenuItem";
+            this.sortByPricesToolStripMenuItem.Size = new System.Drawing.Size(167, 22);
+            this.sortByPricesToolStripMenuItem.Text = "Sort by Prices";
+            // 
+            // logOutToolStripMenuItem
+            // 
+            this.logOutToolStripMenuItem.Name = "logOutToolStripMenuItem";
+            this.logOutToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.logOutToolStripMenuItem.Text = "Log Out";
+            this.logOutToolStripMenuItem.Click += new System.EventHandler(this.logOutToolStripMenuItem_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1475, 583);
+            this.Controls.Add(this.menuStrip1);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.comboqty);
             this.Controls.Add(this.label2);
@@ -332,6 +412,8 @@
             this.Name = "Form1";
             this.Text = "Form1";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            this.menuStrip1.ResumeLayout(false);
+            this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -365,5 +447,14 @@
         private DataGridViewTextBoxColumn qty;
         private DataGridViewTextBoxColumn totalharga;
         private Label label3;
+        private MenuStrip menuStrip1;
+        private ToolStripMenuItem adminToolStripMenuItem;
+        private ToolStripMenuItem exitToolStripMenuItem;
+        private ToolStripMenuItem viewToolStripMenuItem;
+        private ToolStripMenuItem refreshToolStripMenuItem;
+        private ToolStripMenuItem showAllItemsToolStripMenuItem;
+        private ToolStripMenuItem filterByCategoryToolStripMenuItem;
+        private ToolStripMenuItem sortByPricesToolStripMenuItem;
+        private ToolStripMenuItem logOutToolStripMenuItem;
     }
 }
