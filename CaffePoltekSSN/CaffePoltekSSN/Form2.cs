@@ -7,52 +7,53 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using static System.Windows.Forms.DataFormats;
 
 namespace CaffePoltekSSN
 {
     public partial class Form2 : Form
     {
+        private List<User> _userlist = new();
+
         public Form2()
         {
             InitializeComponent();
         }
 
+
         private void button1_Click(object sender, EventArgs e)
         {
-            string username = textBox1.Text;
-            string password = textBox2.Text;
+            string uname = textBox1.Text;
+            string pass = textBox2.Text;
 
-            if (username == "user" && password == "123")
+            var result = _userlist.FirstOrDefault(x => x.Username == uname);
+            if (result != null)
             {
-                //declare form1
-                Form1 form1 = new Form1();
-
-                //close login form
-                this.Hide();
-
-                //go to form1
-                form1.ShowDialog();
-
-                this.Show();
-            }
-            else if (username == "admin" && password == "123")
-            {
-                // Create Form3 for user
-                Form3 form3 = new Form3();
-
-                // Hide the login form
-                this.Hide();
-
-                // Show Form3
-                form3.ShowDialog();
-
-                // After Form3 is closed, show the login form again
-                this.Show();
+                if (result.Password == pass)
+                {
+                    MessageBox.Show("Berhasil Login");
+                    if (result.Rule == "user")
+                    {
+                        Form1 form1 = new(result.Username);
+                        this.Hide();
+                        form1.Show();
+                        form1.Closed += (s, args) => this.Close();
+                    }
+                    else
+                    {
+                        Form3 form3 = new(result.Username);
+                        this.Hide();
+                        form3.Show();
+                        form3.Closed += (s, args) => this.Close();
+                    }                    
+                }
+                else
+                {
+                    MessageBox.Show("Password Salah");
+                }
             }
             else
             {
-                MessageBox.Show("Invalid username or password. Please try again.");
+                MessageBox.Show("User tidak ditemukan");
             }
         }
 
@@ -64,6 +65,12 @@ namespace CaffePoltekSSN
         private void textBox2_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void Form2_Load(object sender, EventArgs e)
+        {
+            _userlist.Add(new User("admin", "pass", "admin"));
+            _userlist.Add(new User("user", "pass", "user"));
         }
     }
 }

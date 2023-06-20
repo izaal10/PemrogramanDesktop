@@ -1,10 +1,20 @@
+using System.Drawing.Printing;
+
 namespace CaffePoltekSSN
 {
     public partial class Form1 : Form
     {
+        private string username;
+
         public Form1()
         {
             InitializeComponent();
+        }
+
+        public Form1(string username)
+        {
+            InitializeComponent();
+            this.username = username;
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -206,9 +216,11 @@ namespace CaffePoltekSSN
                     }
                 }
                 dataGridView1.Rows.Add(combomenu.Text, combosize.Text, combosugar.Text, comboice.Text, comboaddon.Text, comboqty.Text, textTotal.Text);
+                //dt.Rows.Add(combomenu.Text, combosize.Text, combosugar.Text, comboice.Text, comboaddon.Text, comboqty.Text, textTotal.Text);
+                //dataGridView1.DataSource = dt;
             }
         }
-
+        
         private void button2_Click(object sender, EventArgs e)
         {
             combomenu.Text = "";
@@ -227,7 +239,64 @@ namespace CaffePoltekSSN
 
         private void logOutToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            this.Close();
+            //this.Close();
+            Form2 form2 = new();
+            this.Hide();
+            form2.Show();
+            form2.Closed += (s, args) => this.Close();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            label4.Text = "Halo, " + username;
+            //dataGridView1.DataSource = dt;
+            //dataGridView1.AllowUserToAddRows = false;
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            printPreviewDialog1.ShowDialog();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            printPreviewDialog1.ShowDialog();
+        }
+
+        private void printDocument1_PrintPage(object sender, System.Drawing.Printing.PrintPageEventArgs e)
+        {
+            e.Graphics.DrawString(combomenu.Text, new Font("Arial", 18, FontStyle.Regular), Brushes.Black, new PointF(10, 10));
+            e.Graphics.DrawString(combosize.Text, new Font("Arial", 18, FontStyle.Regular), Brushes.Black, new PointF(10, 30));
+            e.Graphics.DrawString(combosugar.Text, new Font("Arial", 18, FontStyle.Regular), Brushes.Black, new PointF(10, 50));
+            e.Graphics.DrawString(comboice.Text, new Font("Arial", 18, FontStyle.Regular), Brushes.Black, new PointF(10, 70));
+            e.Graphics.DrawString(comboaddon.Text, new Font("Arial", 18, FontStyle.Regular), Brushes.Black, new PointF(10, 90));
+            e.Graphics.DrawString(comboqty.Text, new Font("Arial", 18, FontStyle.Regular), Brushes.Black, new PointF(10, 110));
+            e.Graphics.DrawString(textTotal.Text, new Font("Arial", 18, FontStyle.Regular), Brushes.Black, new PointF(10, 130));
+        }
+
+        private void textTotal_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label7_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void printPreviewDialog1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
         }
     }
 }
